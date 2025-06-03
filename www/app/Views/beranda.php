@@ -15,7 +15,7 @@
     <div class="top-bar">
 <div class="tabs">
     <a href="<?= base_url('?tab=temuan'); ?>">
-        <button class="<?= ($tab === 'temuan') ? 'active' : ''; ?>">Temuan</button>
+        <button class="<?= ($tab === 'temuan') ? 'active' : ''; ?>">Ditemukan</button>
     </a>
     <a href="<?= base_url('?tab=hilang'); ?>">
         <button class="<?= ($tab === 'hilang') ? 'active' : ''; ?>">Hilang</button>
