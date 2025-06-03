@@ -1,0 +1,163 @@
+[02-Oct-2021 17:00:09 Asia/Jakarta] 8f777fa7-9978-40a7-ae9e-98058a275beb
+[04-Oct-2021 13:59:45 Asia/Jakarta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/tirtaman/avc.tirtamanik.com/www/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /home/tirtaman/avc.tirtamanik.com/www/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/tirtaman/avc.tirtamanik.com/www/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/tirtaman/avc.tirtamanik.com/www/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/tirtaman/avc.tirtamanik.com/www/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/tirtaman/avc.tirtamanik.com/www/system/Format/Exceptions/FormatException.php on line 9
+[04-Oct-2021 14:00:19 Asia/Jakarta] 3963930a-c642-42b4-ab18-7d5b85931800
+[04-Oct-2021 14:00:28 Asia/Jakarta] 78dd06ae-2f88-4c86-bffd-2dcd86aa64e0
+[04-Oct-2021 14:07:31 Asia/Jakarta] 7b189b21-6e07-4a5f-b1b3-b72d3b54b9fb
+[07-Oct-2021 09:37:44 Asia/Jakarta] 0b2cd647-e23b-4e64-a38f-a73a85ba2c74
+[09-Oct-2021 18:21:05 Asia/Jakarta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/tirtaman/avc.tirtamanik.com/www/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /home/tirtaman/avc.tirtamanik.com/www/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/tirtaman/avc.tirtamanik.com/www/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/tirtaman/avc.tirtamanik.com/www/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/tirtaman/avc.tirtamanik.com/www/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/tirtaman/avc.tirtamanik.com/www/system/Format/Exceptions/FormatException.php on line 9
+[09-Oct-2021 18:24:05 Asia/Jakarta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/tirtaman/avc.tirtamanik.com/www/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /home/tirtaman/avc.tirtamanik.com/www/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/tirtaman/avc.tirtamanik.com/www/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/tirtaman/avc.tirtamanik.com/www/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/tirtaman/avc.tirtamanik.com/www/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/tirtaman/avc.tirtamanik.com/www/system/Format/Exceptions/FormatException.php on line 9
+[09-Oct-2021 18:44:29 Asia/Jakarta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/tirtaman/avc.tirtamanik.com/www/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /home/tirtaman/avc.tirtamanik.com/www/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/tirtaman/avc.tirtamanik.com/www/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/tirtaman/avc.tirtamanik.com/www/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/tirtaman/avc.tirtamanik.com/www/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/tirtaman/avc.tirtamanik.com/www/system/Format/Exceptions/FormatException.php on line 9
+[09-Oct-2021 19:47:49 Asia/Jakarta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/tirtaman/avc.tirtamanik.com/www/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /home/tirtaman/avc.tirtamanik.com/www/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/tirtaman/avc.tirtamanik.com/www/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/tirtaman/avc.tirtamanik.com/www/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/tirtaman/avc.tirtamanik.com/www/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/tirtaman/avc.tirtamanik.com/www/system/Format/Exceptions/FormatException.php on line 9
+[15-Oct-2021 22:29:34 Asia/Jakarta] 426d7e1c-3f24-44c3-939f-f64892fc835d
+[15-Oct-2021 22:29:59 Asia/Jakarta] 97725836-aa6b-47bb-a4ce-695b4d792143
+[16-Oct-2021 09:03:45 Asia/Jakarta] f5119788-f3fa-45eb-9861-9a5e6035fcdf
+[16-Oct-2021 09:04:17 Asia/Jakarta] ac52e665-a7e0-475e-a9b0-1422d6b10186
+[16-Oct-2021 09:06:33 Asia/Jakarta] bc3eacf3-2fa3-4623-9dbf-a3ac97d81d83
+[16-Oct-2021 09:34:02 Asia/Jakarta] f90ea485-a706-4f72-b0b4-023c85494836
+[16-Oct-2021 09:36:21 Asia/Jakarta] 1bfbb52c-bfdd-4e79-91e1-b5ec1afbc12b
+[16-Oct-2021 09:43:04 Asia/Jakarta] e4568f7b-68a6-4daf-8b94-4b274d77449f
+[16-Oct-2021 09:45:30 Asia/Jakarta] 52d2d686-3453-48d8-8a2e-0b8b8e284860
+[16-Oct-2021 09:46:30 Asia/Jakarta] 8e30545a-cd51-4397-8692-ae92552e2793
+[16-Oct-2021 09:47:16 Asia/Jakarta] 201c749b-2bbb-4043-ad80-3e1005d2d95a
+[16-Oct-2021 09:57:33 Asia/Jakarta] 1ba93e00-916e-456d-93e8-abf6542324c3
+[16-Oct-2021 09:58:47 Asia/Jakarta] d78cf6ee-7164-47ac-89a1-70a3c813413e
+[16-Oct-2021 10:05:58 Asia/Jakarta] 15058387-dfe0-4b1a-8d12-dbd1ff425cbc
+[16-Oct-2021 10:06:32 Asia/Jakarta] 36623968-bc41-446a-85fe-73c5b94f8a3c
+[16-Oct-2021 10:07:41 Asia/Jakarta] e997f96b-2ada-4364-a1b2-3b90d6158c82
+[16-Oct-2021 10:09:24 Asia/Jakarta] 40a08213-bc17-43d0-ac03-641a2fecba30
+[16-Oct-2021 10:09:38 Asia/Jakarta] 38ed6eef-493c-4ef1-a8bd-e93377c88f18
+[16-Oct-2021 10:12:18 Asia/Jakarta] 2de24127-38ef-4ff3-989a-74f7e49f081c
+[16-Oct-2021 10:16:57 Asia/Jakarta] c10c812b-378e-4f26-9771-516832188d54
+[16-Oct-2021 10:20:44 Asia/Jakarta] 8e107577-f766-4a3a-83db-0e89c8a53883
+[16-Oct-2021 10:23:46 Asia/Jakarta] 36f91292-330c-44b7-a489-60dc57ab8235
+[16-Oct-2021 10:26:07 Asia/Jakarta] 4baaa36e-6d5b-4c61-9c13-aa295c5e917f
+[16-Oct-2021 10:28:05 Asia/Jakarta] bd34656c-6c10-401d-b352-368d644ff5da
+[16-Oct-2021 10:35:40 Asia/Jakarta] b90e12b9-04fc-4f3c-ac75-bad9ed0f953e
+[16-Oct-2021 10:48:07 Asia/Jakarta] b97bbe77-1d6e-41ab-8ae5-c1309c7f2234
+[16-Oct-2021 12:38:10 Asia/Jakarta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/tirtaman/avc.tirtamanik.com/www/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /home/tirtaman/avc.tirtamanik.com/www/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/tirtaman/avc.tirtamanik.com/www/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/tirtaman/avc.tirtamanik.com/www/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/tirtaman/avc.tirtamanik.com/www/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/tirtaman/avc.tirtamanik.com/www/system/Format/Exceptions/FormatException.php on line 9
+[16-Oct-2021 12:38:36 Asia/Jakarta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/tirtaman/avc.tirtamanik.com/www/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /home/tirtaman/avc.tirtamanik.com/www/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/tirtaman/avc.tirtamanik.com/www/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/tirtaman/avc.tirtamanik.com/www/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/tirtaman/avc.tirtamanik.com/www/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/tirtaman/avc.tirtamanik.com/www/system/Format/Exceptions/FormatException.php on line 9
+[16-Oct-2021 12:40:11 Asia/Jakarta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/tirtaman/avc.tirtamanik.com/www/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /home/tirtaman/avc.tirtamanik.com/www/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/tirtaman/avc.tirtamanik.com/www/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/tirtaman/avc.tirtamanik.com/www/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/tirtaman/avc.tirtamanik.com/www/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/tirtaman/avc.tirtamanik.com/www/system/Format/Exceptions/FormatException.php on line 9
+[16-Oct-2021 12:40:52 Asia/Jakarta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/tirtaman/avc.tirtamanik.com/www/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /home/tirtaman/avc.tirtamanik.com/www/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/tirtaman/avc.tirtamanik.com/www/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/tirtaman/avc.tirtamanik.com/www/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/tirtaman/avc.tirtamanik.com/www/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/tirtaman/avc.tirtamanik.com/www/system/Format/Exceptions/FormatException.php on line 9
+[16-Oct-2021 12:41:36 Asia/Jakarta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/tirtaman/avc.tirtamanik.com/www/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /home/tirtaman/avc.tirtamanik.com/www/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/tirtaman/avc.tirtamanik.com/www/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/tirtaman/avc.tirtamanik.com/www/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/tirtaman/avc.tirtamanik.com/www/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/tirtaman/avc.tirtamanik.com/www/system/Format/Exceptions/FormatException.php on line 9
+[16-Oct-2021 12:42:42 Asia/Jakarta] 221d6b1b-01b1-4c06-8d51-94aa6fc7e3e1
+[16-Oct-2021 12:44:52 Asia/Jakarta] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/tirtaman/avc.tirtamanik.com/www/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /home/tirtaman/avc.tirtamanik.com/www/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/tirtaman/avc.tirtamanik.com/www/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/tirtaman/avc.tirtamanik.com/www/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/tirtaman/avc.tirtamanik.com/www/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/tirtaman/avc.tirtamanik.com/www/system/Format/Exceptions/FormatException.php on line 9
+[16-Oct-2021 12:47:49 Asia/Jakarta] 9b9fb68b-bebf-42c4-9829-d93eb0a4c9d2
+[16-Oct-2021 12:48:53 Asia/Jakarta] a47ccff0-b71c-4cb1-a0ac-94a76d69f5a5
+[16-Oct-2021 12:50:18 Asia/Jakarta] b29044bc-4d4a-42dd-8ef2-2317fc729f1e
+[16-Oct-2021 13:19:19 Asia/Jakarta] da071e5e-91be-4fb3-85cb-a866736577a2
+[16-Oct-2021 14:35:49 Asia/Jakarta] 7c3b5573-2a3a-433d-8847-ad6c1c89f6ec
+[16-Oct-2021 14:37:30 Asia/Jakarta] 1532e17a-f687-42f0-aa06-46b7ad1dcae8
+[16-Oct-2021 15:14:11 Asia/Jakarta] bfcad5f4-718b-4f7d-829c-51b78f123312
+[17-Oct-2021 17:37:07 Asia/Jakarta] 248bf7c6-c1b9-41a2-a138-3ffaa0145ff4
+[17-Oct-2021 19:23:33 Asia/Jakarta] a25c9568-e742-409a-8e0e-91dc3d752b6a
+[17-Oct-2021 21:35:58 Asia/Jakarta] ff56cc55-bb85-4497-a47d-39c6a50a06be
+[20-Oct-2021 19:25:20 Asia/Jakarta] 01aeef31-5a23-4217-a259-80a5195e6a13
+[20-Oct-2021 19:53:14 Asia/Jakarta] 3a328ff8-70e6-4caa-bf7b-dfdcdb0483ec
+[22-Oct-2021 22:25:44 Asia/Jakarta] 7f58d340-4b83-494e-9f5f-21cbfcfaa32c
+[26-Oct-2021 13:17:08 Asia/Jakarta] bc7085db-e165-4df4-ba72-501234e5c8f6
+[26-Oct-2021 13:34:55 Asia/Jakarta] 739d0938-6226-489b-8636-ae58b0187d63
+[26-Oct-2021 13:39:43 Asia/Jakarta] 5f206b62-6180-49cd-ba72-f0829481d83c
+[26-Oct-2021 13:42:25 Asia/Jakarta] 168674b2-03dd-479c-9de0-2c84fad98992
+[26-Oct-2021 13:54:50 Asia/Jakarta] 66791e09-8d35-4854-87e1-fc85997196aa
+[26-Oct-2021 20:14:23 Asia/Jakarta] a9db3e32-4b39-47ab-99d5-5ebe984381f3
+[25-Apr-2022 13:14:26 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 104857600 bytes exhausted (tried to allocate 26480640 bytes) in /home/bbwsben1/pengendali-banjir.bbwsbs.id/www/system/HTTP/Response.php on line 739
+[25-Apr-2022 13:14:37 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 104857600 bytes exhausted (tried to allocate 26480640 bytes) in /home/bbwsben1/pengendali-banjir.bbwsbs.id/www/system/HTTP/Response.php on line 739
+[25-Apr-2022 13:35:59 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 104857600 bytes exhausted (tried to allocate 26484736 bytes) in /home/bbwsben1/pengendali-banjir.bbwsbs.id/www/system/HTTP/Response.php on line 739
+[25-Apr-2022 13:36:04 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 104857600 bytes exhausted (tried to allocate 26484736 bytes) in /home/bbwsben1/pengendali-banjir.bbwsbs.id/www/system/HTTP/Response.php on line 739
+[25-Apr-2022 13:36:32 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 104857600 bytes exhausted (tried to allocate 26484736 bytes) in /home/bbwsben1/pengendali-banjir.bbwsbs.id/www/system/HTTP/Response.php on line 739
+[25-Apr-2022 14:06:31 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 104857600 bytes exhausted (tried to allocate 23379968 bytes) in /home/bbwsben1/pengendali-banjir.bbwsbs.id/www/app/Views/errors/html/error_exception.php on line 100
+[25-Apr-2022 14:06:33 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 104857600 bytes exhausted (tried to allocate 23379968 bytes) in /home/bbwsben1/pengendali-banjir.bbwsbs.id/www/app/Views/errors/html/error_exception.php on line 100
+[25-Apr-2022 14:06:35 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 104857600 bytes exhausted (tried to allocate 23379968 bytes) in /home/bbwsben1/pengendali-banjir.bbwsbs.id/www/app/Views/errors/html/error_exception.php on line 100
+[25-Apr-2022 14:07:18 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 104857600 bytes exhausted (tried to allocate 23379968 bytes) in /home/bbwsben1/pengendali-banjir.bbwsbs.id/www/app/Views/errors/html/error_exception.php on line 100
+[25-Apr-2022 14:07:19 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 104857600 bytes exhausted (tried to allocate 23379968 bytes) in /home/bbwsben1/pengendali-banjir.bbwsbs.id/www/app/Views/errors/html/error_exception.php on line 100
+[25-Apr-2022 14:07:20 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 104857600 bytes exhausted (tried to allocate 23379968 bytes) in /home/bbwsben1/pengendali-banjir.bbwsbs.id/www/app/Views/errors/html/error_exception.php on line 100
+[25-Apr-2022 14:08:37 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 104857600 bytes exhausted (tried to allocate 23379968 bytes) in /home/bbwsben1/pengendali-banjir.bbwsbs.id/www/app/Views/errors/html/error_exception.php on line 100
+[25-Apr-2022 14:08:38 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 104857600 bytes exhausted (tried to allocate 23379968 bytes) in /home/bbwsben1/pengendali-banjir.bbwsbs.id/www/app/Views/errors/html/error_exception.php on line 100
