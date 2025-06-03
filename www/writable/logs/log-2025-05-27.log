@@ -1,0 +1,524 @@
+CRITICAL - 2025-05-27 01:37:54 --> Undefined index: id_Barang
+#0 D:\xampp\htdocs\CI\www\app\Views\beranda.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 40, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(19): view('beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 01:37:55 --> Undefined index: id_Barang
+#0 D:\xampp\htdocs\CI\www\app\Views\beranda.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 40, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(19): view('beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 01:42:59 --> Undefined variable: barang
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 110, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(47): view('claimbarang')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 01:43:00 --> Undefined variable: barang
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 110, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(47): view('claimbarang')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 01:44:48 --> Undefined variable: barang
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 110, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(47): view('claimbarang')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 01:44:48 --> Undefined variable: barang
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 110, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(47): view('claimbarang')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 01:44:49 --> Undefined variable: barang
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 110, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(47): view('claimbarang')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 01:47:31 --> syntax error, unexpected '??' (T_COALESCE), expecting end of file
+#0 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#1 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(47): view('claimbarang')
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-05-27 01:48:08 --> Undefined variable: item
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 110, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(47): view('claimbarang')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 01:48:09 --> Undefined variable: item
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 110, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(47): view('claimbarang')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 01:48:09 --> Undefined variable: item
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 110, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(47): view('claimbarang')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 02:03:51 --> Too few arguments to function App\Controllers\Pages::claim(), 0 passed in D:\xampp\htdocs\CI\www\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-05-27 02:07:38 --> Undefined index: id_Barang
+#0 D:\xampp\htdocs\CI\www\app\Views\beranda.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 40, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(19): view('beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 02:07:44 --> Undefined index: id_Barang
+#0 D:\xampp\htdocs\CI\www\app\Views\beranda.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 40, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(19): view('beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 02:08:28 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/claim_bar...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('pages/claim_bar...', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(53): view('pages/claim_bar...', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim('1')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-05-27 02:10:59 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/claimbara...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('pages/claimbara...', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(53): view('pages/claimbara...', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim('1')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-05-27 02:21:08 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/claimbara...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('pages/claimbara...', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(53): view('pages/claimbara...', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim('1')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-05-27 20:17:26 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/claimbara...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('pages/claimbara...', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(53): view('pages/claimbara...', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim('1')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-05-27 20:17:29 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/claimbara...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('pages/claimbara...', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(53): view('pages/claimbara...', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim('1')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-05-27 20:20:18 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/claimbara...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('pages/claimbara...', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(53): view('pages/claimbara...', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim('2')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-05-27 20:21:37 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/claimbara...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('pages/claimbara...', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(53): view('pages/claimbara...', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim('2')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-05-27 20:21:53 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/claimbara...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('pages/claimbara...', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(53): view('pages/claimbara...', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim('1')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-05-27 20:24:25 --> syntax error, unexpected '?>', expecting ')'
+#0 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('beranda', Array, true)
+#1 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(19): view('beranda', Array)
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-05-27 20:24:41 --> Too few arguments to function App\Controllers\Pages::claim(), 0 passed in D:\xampp\htdocs\CI\www\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-05-27 20:25:17 --> Undefined variable: id
+#0 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 47, Array)
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-05-27 20:26:06 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/claimbara...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('pages/claimbara...', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(53): view('pages/claimbara...')
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-05-27 20:26:11 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/claimbara...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('pages/claimbara...', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(53): view('pages/claimbara...')
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-05-27 20:26:28 --> Undefined variable: item
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 110, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(53): view('claimbarang')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 20:26:31 --> Undefined variable: item
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 110, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(53): view('claimbarang')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 20:27:06 --> Undefined variable: item
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 110, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(53): view('claimbarang')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 20:27:07 --> Undefined variable: item
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 110, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(53): view('claimbarang')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 20:27:08 --> Undefined variable: item
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 110, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(53): view('claimbarang')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 20:27:13 --> Undefined variable: item
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 110, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(53): view('claimbarang')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 20:27:47 --> Undefined variable: item
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 120, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(53): view('claimbarang')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 20:27:48 --> Undefined variable: item
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 120, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(53): view('claimbarang')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 20:27:51 --> Undefined variable: item
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 120, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(53): view('claimbarang')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 20:28:04 --> Undefined variable: item
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 120, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(53): view('claimbarang')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 20:29:05 --> Undefined variable: item
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 120, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(53): view('claimbarang')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-27 20:38:08 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/temuan.ph...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('pages/temuan', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(70): view('pages/temuan', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->temuan()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-05-27 20:41:36 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/temuan.ph...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('pages/temuan', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(70): view('pages/temuan', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->temuan()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-05-27 22:32:46 --> Call to a member function get() on null
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(780): require()
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-05-27 22:32:47 --> Call to a member function get() on null
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(780): require()
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-05-27 22:32:48 --> Call to a member function get() on null
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(780): require()
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-05-27 22:32:48 --> Call to a member function get() on null
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(780): require()
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-05-27 22:32:48 --> Call to a member function get() on null
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(780): require()
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-05-27 22:32:48 --> Call to a member function get() on null
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(780): require()
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-05-27 22:32:48 --> Call to a member function get() on null
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(780): require()
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-05-27 22:32:49 --> Call to a member function get() on null
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(780): require()
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-05-27 22:32:56 --> Call to a member function get() on null
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(780): require()
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-05-27 22:33:22 --> Call to a member function get() on null
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(780): require()
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-05-27 22:33:26 --> Call to a member function get() on null
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(780): require()
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2025-05-27 22:36:08 --> mysqli_sql_exception: Unknown column 'deskripsi' in 'field list' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(61): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->storebarang()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-05-27 22:36:08 --> Unknown column 'deskripsi' in 'field list'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(61): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->storebarang()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-05-27 22:38:10 --> mysqli_sql_exception: Unknown column 'kontak_Penemu' in 'field list' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(59): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->storebarang()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-05-27 22:38:10 --> Unknown column 'kontak_Penemu' in 'field list'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(59): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->storebarang()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-05-27 22:45:21 --> mysqli_sql_exception: Unknown column 'deskripsi' in 'field list' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(59): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->storebarang()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-05-27 22:45:21 --> Unknown column 'deskripsi' in 'field list'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(59): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->storebarang()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-05-27 23:28:31 --> Undefined variable: pager
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 51, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(18): view('admin/beranda')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,420 @@
+CRITICAL - 2025-05-26 01:15:39 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/beranda.ph...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('Home/beranda', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\Home.php(9): view('Home/beranda')
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-05-26 01:15:41 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/beranda.ph...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('Home/beranda', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\Home.php(9): view('Home/beranda')
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-05-26 01:20:08 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/beranda.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('pages/beranda', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\pages.php(9): view('pages/beranda')
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-05-26 01:20:09 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/beranda.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('pages/beranda', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\pages.php(9): view('pages/beranda')
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-05-26 01:20:10 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/beranda.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('pages/beranda', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\pages.php(9): view('pages/beranda')
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-05-26 21:49:01 --> Undefined variable: laporan
+#0 D:\xampp\htdocs\CI\www\app\Views\detailriwayat.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 9, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('detailriwayat', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(31): view('detailriwayat')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->detail()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-26 21:49:11 --> Undefined variable: laporan
+#0 D:\xampp\htdocs\CI\www\app\Views\detailriwayat.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 9, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('detailriwayat', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(31): view('detailriwayat')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->detail()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 22:50:24 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 22:50:24 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 22:50:56 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 22:50:56 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 22:52:40 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 22:52:40 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 22:52:48 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 22:52:48 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 22:53:09 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 22:53:09 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 22:55:28 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 22:55:28 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 22:56:10 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 22:56:10 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 22:56:41 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 22:56:41 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 22:56:45 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 22:56:45 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 22:57:41 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 22:57:41 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 22:58:19 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 22:58:19 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 22:59:15 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 22:59:15 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 23:02:20 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 23:02:20 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 23:02:49 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 23:02:49 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 23:03:32 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 23:03:32 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 23:06:41 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 23:06:41 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 23:06:41 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 23:06:41 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 23:06:42 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 23:06:42 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 23:06:42 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 23:06:42 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 23:09:34 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 23:09:34 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 23:10:15 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 23:10:15 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 23:10:23 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 23:10:23 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 23:11:08 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 23:11:08 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 23:11:08 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 23:11:08 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-05-26 23:11:09 --> Error connecting to the database: Unknown database 'saham'
+CRITICAL - 2025-05-26 23:11:09 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(13): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-26 23:13:26 --> Undefined variable: barang
+#0 D:\xampp\htdocs\CI\www\app\Views\beranda.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 31, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(19): view('beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-26 23:13:27 --> Undefined variable: barang
+#0 D:\xampp\htdocs\CI\www\app\Views\beranda.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 31, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(19): view('beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-26 23:15:33 --> Undefined variable: data
+#0 D:\xampp\htdocs\CI\www\app\Views\beranda.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 31, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(19): view('beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-26 23:15:34 --> Undefined variable: data
+#0 D:\xampp\htdocs\CI\www\app\Views\beranda.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 31, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(19): view('beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-26 23:15:43 --> Undefined index: lokasi_temu
+#0 D:\xampp\htdocs\CI\www\app\Views\beranda.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 36, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(19): view('beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-26 23:21:24 --> Undefined index: gambar
+#0 D:\xampp\htdocs\CI\www\app\Views\beranda.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 33, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(19): view('beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-26 23:25:42 --> Undefined index: gambar
+#0 D:\xampp\htdocs\CI\www\app\Views\beranda.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 34, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(19): view('beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-26 23:25:43 --> Undefined index: gambar
+#0 D:\xampp\htdocs\CI\www\app\Views\beranda.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 34, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(19): view('beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}

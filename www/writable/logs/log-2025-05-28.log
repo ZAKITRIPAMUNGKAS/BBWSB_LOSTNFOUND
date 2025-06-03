@@ -1,0 +1,196 @@
+CRITICAL - 2025-05-28 01:31:58 --> {0} filter must have a matching alias defined.
+#0 D:\xampp\htdocs\CI\www\system\Filters\Filters.php(324): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(373): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-05-28 01:32:00 --> {0} filter must have a matching alias defined.
+#0 D:\xampp\htdocs\CI\www\system\Filters\Filters.php(324): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(373): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-05-28 01:36:26 --> Undefined variable: item
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 19, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(18): view('admin/beranda')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-28 01:36:27 --> Undefined variable: item
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 19, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(18): view('admin/beranda')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-28 01:36:27 --> Undefined variable: item
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 19, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(18): view('admin/beranda')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-28 01:36:27 --> Undefined variable: item
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 19, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(18): view('admin/beranda')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-28 01:37:47 --> Undefined variable: item
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 19, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(33): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-28 01:37:48 --> Undefined variable: item
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 19, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(33): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-28 01:41:52 --> Use of undefined constant admin - assumed 'admin' (this will throw an Error in a future version of PHP)
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\xampp\\htdocs...', 12, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(33): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-28 01:42:39 --> syntax error, unexpected '/'
+#0 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#1 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(33): view('admin/beranda', Array)
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->index()
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-05-28 01:42:48 --> Use of undefined constant admin - assumed 'admin' (this will throw an Error in a future version of PHP)
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\xampp\\htdocs...', 12, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(33): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-28 01:43:24 --> Use of undefined constant admin - assumed 'admin' (this will throw an Error in a future version of PHP)
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\xampp\\htdocs...', 12, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(33): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-28 01:43:42 --> syntax error, unexpected '/'
+#0 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#1 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(33): view('admin/beranda', Array)
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->index()
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-05-28 01:43:43 --> syntax error, unexpected '/'
+#0 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#1 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(33): view('admin/beranda', Array)
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->index()
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-05-28 01:45:44 --> Use of undefined constant CI - assumed 'CI' (this will throw an Error in a future version of PHP)
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\xampp\\htdocs...', 12, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(33): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-28 02:11:52 --> Undefined variable: barang_temuan
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\manajemenklaim.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 83, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/manajemen...', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(81): view('admin/manajemen...')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-28 02:13:53 --> Undefined variable: barang_temuan
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\manajemenklaim.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 68, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/manajemen...', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(81): view('admin/manajemen...')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-28 02:14:27 --> Undefined variable: item
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\manajemenklaim.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 70, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/manajemen...', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(81): view('admin/manajemen...')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-28 02:14:28 --> Undefined variable: item
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\manajemenklaim.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 70, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/manajemen...', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(81): view('admin/manajemen...')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-28 02:20:12 --> Undefined variable: barang_temuan
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\manajemenklaim.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 19, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/manajemen...', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(81): view('admin/manajemen...')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-28 02:20:14 --> Undefined variable: barang_temuan
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\manajemenklaim.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 19, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/manajemen...', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(81): view('admin/manajemen...')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}

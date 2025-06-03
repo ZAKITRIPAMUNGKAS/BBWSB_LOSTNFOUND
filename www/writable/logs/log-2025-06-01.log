@@ -1,0 +1,308 @@
+ERROR - 2025-06-01 20:33:16 --> mysqli_sql_exception: Table 'bbws_lostnfound.user' doesn't exist in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT 1\nFROM `...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Validation\Rules.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\system\Validation\Validation.php(325): CodeIgniter\Validation\Rules->is_unique('085725265355', 'no_HP', Array, NULL)
+#6 D:\xampp\htdocs\CI\www\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('telepon', 'telepon', '085725265355', Array, Array)
+#7 D:\xampp\htdocs\CI\www\app\Controllers\auth.php(98): CodeIgniter\Validation\Validation->run()
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Auth->registerProcess()
+#9 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-06-01 20:33:16 --> Table 'bbws_lostnfound.user' doesn't exist
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT 1\nFROM `...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Validation\Rules.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\system\Validation\Validation.php(325): CodeIgniter\Validation\Rules->is_unique('085725265355', 'no_HP', Array, NULL)
+#6 D:\xampp\htdocs\CI\www\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('telepon', 'telepon', '085725265355', Array, Array)
+#7 D:\xampp\htdocs\CI\www\app\Controllers\auth.php(98): CodeIgniter\Validation\Validation->run()
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Auth->registerProcess()
+#9 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-06-01 20:42:10 --> Undefined property: CodeIgniter\View\View::$session
+#0 D:\xampp\htdocs\CI\www\app\Views\layout\template.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 2, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\View\View.php(257): CodeIgniter\View\View->render('layout/template', Array, true)
+#3 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('beranda', Array, true)
+#4 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(27): view('beranda', Array)
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-06-01 20:46:38 --> Undefined property: CodeIgniter\View\View::$session
+#0 D:\xampp\htdocs\CI\www\app\Views\layout\template.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 2, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\View\View.php(257): CodeIgniter\View\View->render('layout/template', Array, true)
+#3 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('beranda', Array, true)
+#4 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(27): view('beranda', Array)
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-06-01 20:46:44 --> Undefined property: CodeIgniter\View\View::$session
+#0 D:\xampp\htdocs\CI\www\app\Views\layout\template.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 2, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\View\View.php(257): CodeIgniter\View\View->render('layout/template', Array, true)
+#3 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('beranda', Array, true)
+#4 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(27): view('beranda', Array)
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-06-01 21:12:28 --> Undefined index: id_BarangTemuan
+#0 D:\xampp\htdocs\CI\www\app\Views\beranda.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 44, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(27): view('beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-01 21:12:29 --> Undefined index: id_BarangTemuan
+#0 D:\xampp\htdocs\CI\www\app\Views\beranda.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 44, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(27): view('beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-01 21:13:04 --> Class 'App\Models\BarangTemuanModel' not found
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim('3')
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-06-01 21:13:51 --> Class 'App\Models\BarangTemuanModel' not found
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim('3')
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-06-01 21:22:13 --> Undefined index: gambar
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 98, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(54): view('claimbarang', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim('3')
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-01 21:22:47 --> Undefined index: gambar_barang
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 98, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(54): view('claimbarang', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim('3')
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-01 21:24:46 --> Undefined index: gambar
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 98, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(54): view('claimbarang', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim('3')
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-01 21:25:07 --> Undefined index: deskripsi
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 99, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(54): view('claimbarang', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim('3')
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-01 21:25:08 --> Undefined index: deskripsi
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 99, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(54): view('claimbarang', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim('3')
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-01 21:25:27 --> Undefined index: id
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 108, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(54): view('claimbarang', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim('3')
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-01 21:29:58 --> Undefined index: idBarang_temuan
+#0 D:\xampp\htdocs\CI\www\app\Views\claimbarang.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 108, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('claimbarang', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(54): view('claimbarang', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->claim('3')
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-01 21:54:50 --> Trait 'App\Controllers\App\Models\LaporanModel' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-06-01 21:54:51 --> Trait 'App\Controllers\App\Models\LaporanModel' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-06-01 21:54:51 --> Trait 'App\Controllers\App\Models\LaporanModel' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-06-01 21:54:52 --> Trait 'App\Controllers\App\Models\LaporanModel' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-06-01 21:56:32 --> syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\xampp\htdocs\CI\www\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\CI\www\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Bara...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Bara...')
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(12): spl_autoload_call('App\\Models\\Bara...')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-01 21:56:33 --> syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\xampp\htdocs\CI\www\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\CI\www\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Bara...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Bara...')
+#3 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(12): spl_autoload_call('App\\Models\\Bara...')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-01 21:58:45 --> Class 'App\Controllers\LaporanModel' not found
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->simpan()
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-06-01 22:01:10 --> Call to a member function with() on string
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->simpan()
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2025-06-01 22:12:55 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bbws_lostnfound`.`laporan_kehilangan`, CONSTRAINT `laporan_kehilangan_ibfk_1` FOREIGN KEY (`User__idUser_`) REFERENCES `user_` (`idUser_`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `la...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `la...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `la...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `la...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(88): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->simpan()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-01 22:12:55 --> Cannot add or update a child row: a foreign key constraint fails (`bbws_lostnfound`.`laporan_kehilangan`, CONSTRAINT `laporan_kehilangan_ibfk_1` FOREIGN KEY (`User__idUser_`) REFERENCES `user_` (`idUser_`))
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `la...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `la...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `la...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `la...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(88): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->simpan()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-01 22:27:43 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bbws_lostnfound`.`laporan_kehilangan`, CONSTRAINT `laporan_kehilangan_ibfk_1` FOREIGN KEY (`User__idUser_`) REFERENCES `user_` (`idUser_`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `la...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `la...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `la...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `la...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(88): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->simpan()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-01 22:27:43 --> Cannot add or update a child row: a foreign key constraint fails (`bbws_lostnfound`.`laporan_kehilangan`, CONSTRAINT `laporan_kehilangan_ibfk_1` FOREIGN KEY (`User__idUser_`) REFERENCES `user_` (`idUser_`))
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `la...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `la...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `la...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `la...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(88): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->simpan()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-01 22:33:59 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bbws_lostnfound`.`laporan_kehilangan`, CONSTRAINT `laporan_kehilangan_ibfk_1` FOREIGN KEY (`User__idUser_`) REFERENCES `user_` (`idUser_`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `la...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `la...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `la...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `la...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(94): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->simpan()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-01 22:33:59 --> Cannot add or update a child row: a foreign key constraint fails (`bbws_lostnfound`.`laporan_kehilangan`, CONSTRAINT `laporan_kehilangan_ibfk_1` FOREIGN KEY (`User__idUser_`) REFERENCES `user_` (`idUser_`))
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `la...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `la...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `la...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `la...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(94): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->simpan()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-01 22:34:03 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bbws_lostnfound`.`laporan_kehilangan`, CONSTRAINT `laporan_kehilangan_ibfk_1` FOREIGN KEY (`User__idUser_`) REFERENCES `user_` (`idUser_`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `la...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `la...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `la...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `la...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(94): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->simpan()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-01 22:34:03 --> Cannot add or update a child row: a foreign key constraint fails (`bbws_lostnfound`.`laporan_kehilangan`, CONSTRAINT `laporan_kehilangan_ibfk_1` FOREIGN KEY (`User__idUser_`) REFERENCES `user_` (`idUser_`))
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `la...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `la...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `la...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `la...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\Pages.php(94): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Pages->simpan()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}

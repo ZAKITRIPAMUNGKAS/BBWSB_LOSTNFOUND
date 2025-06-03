@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: 
+    linear-gradient(rgba(30, 58, 138, 0.8), rgba(30, 58, 138, 0.8)), /* Lapisan biru dengan opacity */
+    url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+  padding: 20px;
+  margin: 0;
+}
+
+.brand-title {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  transition: letter-spacing 0.3s ease;
+  cursor: default; /* agar tidak berubah seperti tombol */
+}
+
+.brand-title:hover {
+  letter-spacing: 6px;
+}
+
+.form-box {
+  background: #ffffff;
+  padding: 45px 35px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  text-align: center;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.form-box h2 {
+  color: #1e3a8a;
+  font-size: 26px;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.form-box p {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.form-box input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-box input:focus {
+  border-color: #1e3a8a;
+  box-shadow: 0 0 0 3px rgba(30, 58, 138, 0.1);
+  outline: none;
+}
+
+.form-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1e3a8a;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.form-box button:hover {
+  background-color: #16307a;
+  transform: scale(1.02);
+}
+
+.form-box .switch-link {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #444;
+}
+
+.form-box .switch-link a {
+  color: #1e3a8a;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.form-box .switch-link a:hover {
+  color: #0d2563;
+}
+
+.logo {
+  margin-top: 25px;
+}
+
+.logo img {
+  width: 80px;
+  opacity: 0.9;
+  transition: transform 0.3s;
+}
+
+.logo img:hover {
+  transform: scale(1.05);
+}
