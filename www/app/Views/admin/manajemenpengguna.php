@@ -59,7 +59,7 @@ tbody tr:hover {
   <h1>Manajemen Pengguna</h1>
 
  <div class="search-bar">
-<form action="<?= base_url('admin'); ?>" method="get" class="search-bar">
+<form action="<?= base_url('admin/manajemenpengguna'); ?>" method="get" class="search-bar">
     <input type="text" name="keyword" placeholder="cari barang" value="<?= esc($keyword ?? ''); ?>">
     <button type="submit" class="search-btn">🔍</button>
 </form>
@@ -75,17 +75,25 @@ tbody tr:hover {
       </tr>
     </thead>
     <tbody>
-      <?php for ($i = 0; $i < 8; $i++): ?>
-      <tr>
-        <td>username<?= $i+1 ?></td>
-        <td>Nama Lengkap <?= $i+1 ?></td>
-        <td>08xxxxxxxxx<?= $i ?></td>
-        <td class="btn-group">
-          <button class="btn-edit">Edit</button>
-          <button class="btn-delete">Hapus</button>
-        </td>
-      </tr>
-      <?php endfor; ?>
+<?php if (!empty($users)): ?>
+  <?php foreach ($users as $user): ?>
+    <tr>
+      <td><?= esc($user['nama']) ?></td>
+      <td><?= esc($user['nama_Lengkap']) ?></td>
+      <td><?= esc($user['no_HP']) ?></td>
+      <td class="btn-group">
+        <a href="<?= base_url('admin/editpengguna/' . $user['idUser_']) ?>" class="btn-edit">Edit</a>
+        <form action="<?= base_url('admin/hapuspengguna/' . $user['idUser_']) ?>" method="post" onsubmit="return confirm('Yakin ingin menghapus pengguna ini?');">
+          <?= csrf_field() ?>
+          <button type="submit" class="btn-delete">Hapus</button>
+        </form>
+      </td>
+    </tr>
+  <?php endforeach; ?>
+<?php else: ?>
+  <tr><td colspan="4">Tidak ada data pengguna.</td></tr>
+<?php endif; ?>
+
     </tbody>
   </table>
 </div>

@@ -7,7 +7,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lost & Found</title>
-  <link rel="stylesheet" href="<?= base_url('www/public/css/styles.css'); ?>">
 </head>
 <body>
 
@@ -41,7 +40,7 @@
     <?php foreach ($barang_temuan as $item) : ?>
         <div class="item-card">
             <div class="item-image">
-                <img src="<?= base_url('www/public/uploads/' . $item['gambar_Barang']); ?>" alt="Gambar" style="max-width: 100%; height: auto;" />
+                <img src="<?= base_url('www/public/uploads/' . $item['gambar_Barang']); ?>" alt="Gambar"/>
             </div>
             <div class="item-info">
                 <p><?= esc($item['nama_Barang']); ?></p>

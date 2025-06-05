@@ -127,7 +127,7 @@ class Auth extends Controller
     {
         $this->session->destroy();
         setcookie('remember_id', '', time() - 3600, "/"); // Hapus cookie
-        return redirect()->to(base_url('auth/login'))->with('success', 'Anda telah logout.');
+        return redirect()->to(base_url('/'))->with('success', 'Anda telah logout.');
     }
 }
 

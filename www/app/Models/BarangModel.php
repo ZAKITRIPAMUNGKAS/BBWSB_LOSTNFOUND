@@ -24,7 +24,27 @@ class BarangModel extends Model
         return $this->table('barang_temuan')
             ->like('nama_Barang', $keyword)
             ->orLike('lokasi_Temu', $keyword)
-            ->orLike('deskripsi', $keyword)
+            ->orLike('deskripsi_Barang', $keyword)
             ->findAll();
     }
+
+    public function getBelumDiklaim($keyword = null)
+{
+    $this->select('barang_temuan.*')
+         ->join('claim_barang', 'claim_barang.Barang_Temuan_idBarang_Temuan = barang_temuan.idBarang_Temuan', 'left')
+         ->groupStart()
+            ->where('claim_barang.idClaim_Barang IS NULL')
+            ->orWhere('claim_barang.status_Claim', 'ditolak')
+         ->groupEnd();
+
+    if ($keyword) {
+        $this->groupStart()
+             ->like('nama_Barang', $keyword)
+             ->orLike('lokasi_Temu', $keyword)
+             ->groupEnd();
+    }
+
+    return $this;
+}
+
 }

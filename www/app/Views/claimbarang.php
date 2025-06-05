@@ -1,5 +1,10 @@
+<?php
+session()->set('logged_in', true);
+?>
+
 <?= $this->extend('layout/template'); ?>
 <?= $this->section('content'); ?>
+
 
 <style>
   .claim-container {
@@ -87,13 +92,44 @@
   .submit-btn:hover {
     background-color: #60c25d;
   }
+
+  .alert {
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+
+  .alert-success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+
+  .alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
 </style>
 
 <main class="claim-container">
-  <div class="back"><a href="javascript:window.history.back()" class="back-link">&lt; Kembali</a></div>
+  <div class="back">
+    <a href="javascript:window.history.back()" class="back-link">&lt; Kembali</a>
+  </div>
   <h1 class="title">Claim Barang</h1>
 
-  <form action="#" method="post">
+  <?php if (session()->getFlashdata('success')) : ?>
+    <div class="alert alert-success">
+      <?= session()->getFlashdata('success') ?>
+    </div>
+  <?php endif; ?>
+
+  <?php if (session()->getFlashdata('error')) : ?>
+    <div class="alert alert-danger">
+      <?= session()->getFlashdata('error') ?>
+    </div>
+  <?php endif; ?>
+
+  <form action="<?= base_url('/claim/submit') ?>" method="post">
+    <?= csrf_field() ?>
     <div class="claim-form">
       <div class="item-detail">
         <div class="item-image" style="background-image: url('<?= base_url('www/public/uploads/' . esc($barang_temuan['gambar_Barang'])) ?>');"></div>
@@ -104,7 +140,7 @@
 
       <div class="form-group">
         <label for="kronologi">Kronologi Kehilangan</label>
-        <textarea name="kronologi" id="kronologi" placeholder="Tuliskan kronologi kehilangan barang Anda di sini..." required></textarea>
+        <textarea name="kronologi" id="kronologi" placeholder="Tuliskan kronologi kehilangan barang Anda di sini..." required><?= old('kronologi') ?></textarea>
       </div>
     </div>
 
@@ -114,3 +150,4 @@
 </main>
 
 <?= $this->endSection(); ?>
+

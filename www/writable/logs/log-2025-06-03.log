@@ -1,0 +1,1542 @@
+CRITICAL - 2025-06-03 01:42:48 --> Class 'App\Controllers\LaporanModel' not found
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenlapor()
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-06-03 01:43:17 --> Class 'App\Models\LaporanModel' not found
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenlapor()
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-06-03 01:43:31 --> Call to undefined function App\Controllers\LaporanModel()
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenlapor()
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-06-03 01:43:44 --> Class 'App\Models\LaporanModel' not found
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenlapor()
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-06-03 01:43:45 --> Class 'App\Models\LaporanModel' not found
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenlapor()
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-06-03 01:57:53 --> syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\xampp\htdocs\CI\www\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/manajemen...')
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/manajemen...')
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-06-03 01:58:07 --> syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\xampp\htdocs\CI\www\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/manajemen...')
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/manajemen...')
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-06-03 01:58:07 --> syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\xampp\htdocs\CI\www\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/manajemen...')
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/manajemen...')
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-06-03 01:58:16 --> syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\xampp\htdocs\CI\www\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/manajemen...')
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/manajemen...')
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2025-06-03 01:58:36 --> mysqli_sql_exception: Table 'bbws_lostnfound.users' doesn't exist in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(95): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 01:58:36 --> Table 'bbws_lostnfound.users' doesn't exist
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(95): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 01:58:43 --> mysqli_sql_exception: Table 'bbws_lostnfound.users' doesn't exist in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(95): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 01:58:43 --> Table 'bbws_lostnfound.users' doesn't exist
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(95): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 01:59:08 --> mysqli_sql_exception: Table 'bbws_lostnfound.users' doesn't exist in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(95): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 01:59:08 --> Table 'bbws_lostnfound.users' doesn't exist
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(95): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 01:59:32 --> mysqli_sql_exception: Table 'bbws_lostnfound.users' doesn't exist in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(95): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 01:59:32 --> Table 'bbws_lostnfound.users' doesn't exist
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(95): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 01:59:33 --> mysqli_sql_exception: Table 'bbws_lostnfound.users' doesn't exist in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(95): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 01:59:33 --> Table 'bbws_lostnfound.users' doesn't exist
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(95): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 01:59:33 --> mysqli_sql_exception: Table 'bbws_lostnfound.users' doesn't exist in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(95): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 01:59:33 --> Table 'bbws_lostnfound.users' doesn't exist
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(95): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 02:02:12 --> mysqli_sql_exception: Table 'bbws_lostnfound.users' doesn't exist in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(97): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 02:02:12 --> Table 'bbws_lostnfound.users' doesn't exist
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(97): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 02:02:13 --> mysqli_sql_exception: Table 'bbws_lostnfound.users' doesn't exist in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(97): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 02:02:13 --> Table 'bbws_lostnfound.users' doesn't exist
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(97): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 02:02:20 --> mysqli_sql_exception: Table 'bbws_lostnfound.users' doesn't exist in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(97): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 02:02:20 --> Table 'bbws_lostnfound.users' doesn't exist
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(97): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 02:02:35 --> mysqli_sql_exception: Table 'bbws_lostnfound.users' doesn't exist in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(97): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 02:02:35 --> Table 'bbws_lostnfound.users' doesn't exist
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(97): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 02:03:58 --> mysqli_sql_exception: Table 'bbws_lostnfound.users_' doesn't exist in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(97): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 02:03:58 --> Table 'bbws_lostnfound.users_' doesn't exist
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(97): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 02:04:59 --> mysqli_sql_exception: Unknown column 'user_.nama_User' in 'field list' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(97): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 02:04:59 --> Unknown column 'user_.nama_User' in 'field list'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(97): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 02:05:00 --> mysqli_sql_exception: Unknown column 'user_.nama_User' in 'field list' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(97): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 02:05:00 --> Unknown column 'user_.nama_User' in 'field list'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(97): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 02:06:12 --> mysqli_sql_exception: Unknown column 'users.nama_User' in 'field list' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(97): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 02:06:12 --> Unknown column 'users.nama_User' in 'field list'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(97): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 02:23:39 --> {0} filter must have a matching alias defined.
+#0 D:\xampp\htdocs\CI\www\system\Filters\Filters.php(324): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(373): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-06-03 02:28:44 --> {0} filter must have a matching alias defined.
+#0 D:\xampp\htdocs\CI\www\system\Filters\Filters.php(324): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(373): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2025-06-03 02:33:31 --> mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\system\Model.php(1184): CodeIgniter\Model->findAll(10, 0)
+#6 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(177): CodeIgniter\Model->paginate(10)
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->manajemenlapor()
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-06-03 02:33:31 --> Unknown column 'created_at' in 'order clause'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\system\Model.php(1184): CodeIgniter\Model->findAll(10, 0)
+#6 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(177): CodeIgniter\Model->paginate(10)
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->manajemenlapor()
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-06-03 03:30:22 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::is()
+#0 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Claim->submit()
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Claim))
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2025-06-03 03:44:22 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `cl...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\claim.php(75): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Claim->submit()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Claim))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 03:44:22 --> Unknown column 'status' in 'field list'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `cl...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\claim.php(75): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Claim->submit()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Claim))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 03:45:38 --> mysqli_sql_exception: Unknown column 'tanggal_klaim' in 'field list' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `cl...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\claim.php(75): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Claim->submit()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Claim))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 03:45:38 --> Unknown column 'tanggal_klaim' in 'field list'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `cl...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\claim.php(75): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Claim->submit()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Claim))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 03:49:28 --> Undefined index: nama_User
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\manajemenklaim.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 20, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/manajemen...', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(101): view('admin/manajemen...', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 03:49:37 --> Undefined index: nama_User
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\manajemenklaim.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 20, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/manajemen...', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(101): view('admin/manajemen...', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 20:14:19 --> Undefined index: idKlaim_Barang
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\manajemenklaim.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 25, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/manajemen...', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(102): view('admin/manajemen...', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->manajemenklaim()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-03 20:38:35 --> mysqli_sql_exception: Table 'bbws_lostnfound.users' doesn't exist in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(224): CodeIgniter\Model->first()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->detailklaim('1')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 20:38:35 --> Table 'bbws_lostnfound.users' doesn't exist
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(224): CodeIgniter\Model->first()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->detailklaim('1')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 20:39:34 --> mysqli_sql_exception: Unknown column 'users.nama_User' in 'field list' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(224): CodeIgniter\Model->first()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->detailklaim('1')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 20:39:34 --> Unknown column 'users.nama_User' in 'field list'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(224): CodeIgniter\Model->first()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->detailklaim('1')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 20:39:53 --> Undefined index: nama_User
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\detailklaim.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 9, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/detailkla...', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(231): view('admin/detailkla...', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->detailklaim('1')
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-03 20:43:49 --> mysqli_sql_exception: Table 'bbws_lostnfound.users' doesn't exist in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(224): CodeIgniter\Model->first()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->detailklaim('2')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 20:43:49 --> Table 'bbws_lostnfound.users' doesn't exist
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(224): CodeIgniter\Model->first()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->detailklaim('2')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 20:44:25 --> mysqli_sql_exception: Unknown column 'barang_temuan.gambar' in 'field list' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(224): CodeIgniter\Model->first()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->detailklaim('2')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 20:44:25 --> Unknown column 'barang_temuan.gambar' in 'field list'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(224): CodeIgniter\Model->first()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->detailklaim('2')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 20:44:26 --> mysqli_sql_exception: Unknown column 'barang_temuan.gambar' in 'field list' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(224): CodeIgniter\Model->first()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->detailklaim('2')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 20:44:26 --> Unknown column 'barang_temuan.gambar' in 'field list'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(224): CodeIgniter\Model->first()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->detailklaim('2')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 20:44:42 --> mysqli_sql_exception: Unknown column 'barang_temuan.gambar' in 'field list' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(224): CodeIgniter\Model->first()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->detailklaim('2')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 20:44:42 --> Unknown column 'barang_temuan.gambar' in 'field list'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(224): CodeIgniter\Model->first()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->detailklaim('2')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 20:45:35 --> mysqli_sql_exception: Unknown column 'user_.idUser' in 'on clause' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(224): CodeIgniter\Model->first()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->detailklaim('2')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 20:45:35 --> Unknown column 'user_.idUser' in 'on clause'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `claim_b...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `claim_b...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `claim_b...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `claim_b...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(224): CodeIgniter\Model->first()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->detailklaim('2')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 21:00:11 --> Undefined property: App\Controllers\admin::$laporanModel
+#0 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(237): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 237, Array)
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->editlapor('10')
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-06-03 21:00:19 --> Undefined property: App\Controllers\admin::$laporanModel
+#0 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(250): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 250, Array)
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\admin->hapuslapor('9')
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-06-03 21:01:54 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/editlapor...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/editlapor', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(225): view('admin/editlapor', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->editlapor('11')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-03 21:03:19 --> Undefined variable: laporan
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\editlapor.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 11, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/editlapor', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(225): view('admin/editlapor', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->editlapor('10')
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:03:26 --> Undefined variable: laporan
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\editlapor.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 11, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/editlapor', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(225): view('admin/editlapor', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->editlapor('10')
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:05:12 --> Undefined variable: laporan
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\editlapor.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 11, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/editlapor', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(225): view('admin/editlapor', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->editlapor('11')
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-03 21:35:10 --> mysqli_sql_exception: Unknown column 'lokasi_Temu' in 'where clause' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(39): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 21:35:10 --> Unknown column 'lokasi_Temu' in 'where clause'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(39): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 21:37:03 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\CI\www\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\CI\www\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:37:03 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\CI\www\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\CI\www\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:37:04 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\CI\www\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\CI\www\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:37:04 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\CI\www\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\CI\www\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:37:32 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\xampp\htdocs\CI\www\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\CI\www\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:37:33 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\xampp\htdocs\CI\www\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\CI\www\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:40:13 --> syntax error, unexpected 'protected' (T_PROTECTED), expecting end of file
+#0 D:\xampp\htdocs\CI\www\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\CI\www\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:40:14 --> syntax error, unexpected 'protected' (T_PROTECTED), expecting end of file
+#0 D:\xampp\htdocs\CI\www\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\CI\www\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-03 21:40:25 --> mysqli_sql_exception: Unknown column 'lokasi_Temu' in 'where clause' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(39): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 21:40:25 --> Unknown column 'lokasi_Temu' in 'where clause'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(39): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 21:40:25 --> mysqli_sql_exception: Unknown column 'lokasi_Temu' in 'where clause' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(39): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 21:40:25 --> Unknown column 'lokasi_Temu' in 'where clause'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(39): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 21:42:46 --> mysqli_sql_exception: Unknown column 'lokasi_Kehilangan' in 'where clause' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT COUNT(*)...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(1673): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\xampp\htdocs\CI\www\system\Model.php(1176): CodeIgniter\Model->countAllResults(false)
+#6 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(39): CodeIgniter\Model->paginate(10, 'laporan')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-06-03 21:42:46 --> Unknown column 'lokasi_Kehilangan' in 'where clause'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT COUNT(*)...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(1673): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\xampp\htdocs\CI\www\system\Model.php(1176): CodeIgniter\Model->countAllResults(false)
+#6 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(39): CodeIgniter\Model->paginate(10, 'laporan')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2025-06-03 21:42:48 --> mysqli_sql_exception: Unknown column 'lokasi_Kehilangan' in 'where clause' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT COUNT(*)...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(1673): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\xampp\htdocs\CI\www\system\Model.php(1176): CodeIgniter\Model->countAllResults(false)
+#6 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(39): CodeIgniter\Model->paginate(10, 'laporan')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-06-03 21:42:48 --> Unknown column 'lokasi_Kehilangan' in 'where clause'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT COUNT(*)...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(1673): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\xampp\htdocs\CI\www\system\Model.php(1176): CodeIgniter\Model->countAllResults(false)
+#6 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(39): CodeIgniter\Model->paginate(10, 'laporan')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-06-03 21:43:56 --> Undefined index: lokasi_Temu
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 53, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:43:57 --> Undefined index: lokasi_Temu
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 53, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:44:33 --> Undefined index: lokasi_Temu
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 53, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:44:34 --> Undefined index: lokasi_Temu
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 53, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:44:35 --> Undefined index: lokasi_Temu
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 53, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:44:35 --> Undefined index: lokasi_Temu
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 53, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:44:35 --> Undefined index: lokasi_Temu
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 53, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:44:41 --> Undefined index: lokasi_Temu
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 53, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:44:41 --> Undefined index: lokasi_Temu
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 53, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:44:42 --> Undefined index: lokasi_Temu
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 53, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:44:42 --> Undefined index: lokasi_Temu
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 53, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:47:16 --> Undefined index: lokasi_Temu
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 53, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:49:35 --> Undefined index: lokasi_Temu
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 52, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:49:36 --> Undefined index: lokasi_Temu
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 52, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:49:36 --> Undefined index: lokasi_Temu
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 52, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:49:40 --> Undefined index: lokasi_Temu
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 52, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:49:41 --> Undefined index: lokasi_Temu
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 52, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:49:42 --> Undefined index: lokasi_Temu
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 52, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:49:42 --> Undefined index: lokasi_Temu
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 52, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:50:00 --> Undefined index: deskripsi_Barang
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 54, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:50:01 --> Undefined index: deskripsi_Barang
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 54, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:50:44 --> Undefined index: idLaporan
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 57, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 21:50:45 --> Undefined index: idLaporan
+#0 D:\xampp\htdocs\CI\www\app\Views\admin\beranda.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 57, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/beranda', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(48): view('admin/beranda', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-06-03 22:17:22 --> Undefined variable: activeMenu
+#0 D:\xampp\htdocs\CI\www\app\Views\layout\templateadmin.php(234): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 234, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\View\View.php(257): CodeIgniter\View\View->render('layout/template...', Array, true)
+#3 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('admin/manajemen...', Array, true)
+#4 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(142): view('admin/manajemen...', Array)
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->manajemenpengguna()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-06-03 22:54:06 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detairiwayat.ph...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('detairiwayat', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(30): view('detairiwayat', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->show('13')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-03 22:54:46 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detairiwayat.ph...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('detairiwayat', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(30): view('detairiwayat', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->show('13')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-03 22:55:12 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detairiwayat.ph...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('detairiwayat', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(30): view('detairiwayat', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->show('12')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-03 23:06:12 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/index.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/index', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(24): view('riwayat/index', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-03 23:06:24 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/index.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/index', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(24): view('riwayat/index', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-03 23:06:24 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/index.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/index', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(24): view('riwayat/index', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-03 23:06:28 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/index.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/index', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(24): view('riwayat/index', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-03 23:06:29 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/index.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/index', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(24): view('riwayat/index', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-03 23:06:37 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/index.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/index', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(24): view('riwayat/index', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-03 23:06:37 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/index.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/index', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(24): view('riwayat/index', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-03 23:06:55 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/index.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/index', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(24): view('riwayat/index', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-03 23:06:59 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/index.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/index', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(24): view('riwayat/index', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-03 23:13:02 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/index.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/index', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(25): view('riwayat/index', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-03 23:13:03 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/index.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/index', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(25): view('riwayat/index', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-03 23:13:12 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/index.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/index', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(25): view('riwayat/index', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-03 23:14:48 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/index.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/index', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(25): view('riwayat/index', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-03 23:14:49 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/index.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/index', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(25): view('riwayat/index', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-03 23:14:50 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/index.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/index', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(25): view('riwayat/index', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-03 23:14:50 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/index.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/index', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(25): view('riwayat/index', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2025-06-03 23:19:25 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(25): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 23:19:25 --> Unknown column 'user_id' in 'where clause'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(25): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 23:19:26 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(25): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 23:19:26 --> Unknown column 'user_id' in 'where clause'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(25): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 23:19:43 --> mysqli_sql_exception: Unknown column 'idUser_' in 'where clause' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(25): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 23:19:43 --> Unknown column 'idUser_' in 'where clause'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(25): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 23:19:44 --> mysqli_sql_exception: Unknown column 'idUser_' in 'where clause' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(25): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 23:19:44 --> Unknown column 'idUser_' in 'where clause'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(25): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 23:20:26 --> mysqli_sql_exception: Unknown column 'User_idUser_' in 'where clause' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(25): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 23:20:26 --> Unknown column 'User_idUser_' in 'where clause'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(25): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-03 23:20:27 --> mysqli_sql_exception: Unknown column 'User_idUser_' in 'where clause' in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(25): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-03 23:20:27 --> Unknown column 'User_idUser_' in 'where clause'
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(25): CodeIgniter\Model->findAll()
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}

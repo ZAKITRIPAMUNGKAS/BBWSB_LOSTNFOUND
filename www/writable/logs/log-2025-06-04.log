@@ -1,0 +1,460 @@
+ERROR - 2025-06-04 01:28:07 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`laporan_kehilangan`, CONSTRAINT `laporan_kehilangan_ibfk_1` FOREIGN KEY (`User__idUser_`) REFERENCES `user_` (`idUser_`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `us...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(339): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapuspengguna('12')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-04 01:28:07 --> Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`laporan_kehilangan`, CONSTRAINT `laporan_kehilangan_ibfk_1` FOREIGN KEY (`User__idUser_`) REFERENCES `user_` (`idUser_`))
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `us...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(339): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapuspengguna('12')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-04 02:06:44 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/index.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/index', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(37): view('riwayat/index', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-04 02:09:30 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/index.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/index', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(37): view('riwayat/index', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-04 02:09:33 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/index.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/index', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(37): view('riwayat/index', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-04 02:12:44 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/index.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/index', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(37): view('riwayat/index', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-04 02:12:47 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/index.p...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/index', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(37): view('riwayat/index', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->index()
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-04 02:13:56 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/detail....')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/detail', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(54): view('riwayat/detail', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->show('15')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-04 02:14:26 --> Invalid file: {0}
+#0 D:\xampp\htdocs\CI\www\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/detail_...')
+#1 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('riwayat/detail_...', Array, true)
+#2 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(74): view('riwayat/detail_...', Array)
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->detailKlaim('4')
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-04 02:15:51 --> Undefined index: warna_Barang
+#0 D:\xampp\htdocs\CI\www\app\Views\detailklaim.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 80, Array)
+#1 D:\xampp\htdocs\CI\www\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CI\www\system\Common.php(1119): CodeIgniter\View\View->render('detailklaim', Array, true)
+#3 D:\xampp\htdocs\CI\www\app\Controllers\RiwayatController.php(74): view('detailklaim', Array)
+#4 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\RiwayatController->detailKlaim('4')
+#5 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RiwayatController))
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-04 02:50:52 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(169): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-04 02:50:52 --> Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`))
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(169): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-04 02:50:58 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(169): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('37')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-04 02:50:58 --> Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`))
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(169): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('37')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-04 02:51:35 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(169): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('35')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-04 02:51:35 --> Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`))
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(169): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('35')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-04 02:53:58 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(170): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-04 02:54:00 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(170): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-04 02:54:02 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(170): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-04 02:54:03 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(170): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-04 02:54:04 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(170): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-04 02:54:53 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(170): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-04 02:58:12 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(170): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-04 02:58:14 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(170): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-04 02:58:59 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(170): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-04 02:59:00 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(170): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-04 02:59:27 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(164): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-04 02:59:27 --> Gagal menghapus data: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`))
+ERROR - 2025-06-04 02:59:28 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(164): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-04 02:59:28 --> Gagal menghapus data: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`))
+ERROR - 2025-06-04 02:59:29 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(164): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-04 02:59:29 --> Gagal menghapus data: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`))
+ERROR - 2025-06-04 02:59:29 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(164): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-04 02:59:29 --> Gagal menghapus data: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`))
+ERROR - 2025-06-04 02:59:29 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(164): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-04 02:59:29 --> Gagal menghapus data: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`))
+ERROR - 2025-06-04 02:59:30 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(164): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-04 02:59:30 --> Gagal menghapus data: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`))
+ERROR - 2025-06-04 02:59:30 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(164): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-04 02:59:30 --> Gagal menghapus data: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`))
+ERROR - 2025-06-04 02:59:30 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(164): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-04 02:59:30 --> Gagal menghapus data: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`))
+CRITICAL - 2025-06-04 03:02:10 --> Cannot redeclare App\Controllers\Admin::hapus()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-06-04 03:02:50 --> Cannot redeclare App\Controllers\Admin::hapus()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-06-04 03:03:01 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`)) in D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(169): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-04 03:03:01 --> Cannot delete or update a parent row: a foreign key constraint fails (`bbws_lostnfound`.`claim_barang`, CONSTRAINT `claim_barang_ibfk_1` FOREIGN KEY (`Barang_Temuan_idBarang_Temuan`) REFERENCES `barang_temuan` (`idBarang_Temuan`))
+#0 D:\xampp\htdocs\CI\www\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `ba...')
+#1 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ba...')
+#2 D:\xampp\htdocs\CI\www\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ba...')
+#3 D:\xampp\htdocs\CI\www\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ba...', Array, false)
+#4 D:\xampp\htdocs\CI\www\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(169): CodeIgniter\Model->delete(Array)
+#6 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#7 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-04 03:03:42 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-06-04 03:03:46 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\xampp\htdocs\CI\www\app\Controllers\admin.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(918): App\Controllers\Admin->hapus('36')
+#2 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 D:\xampp\htdocs\CI\www\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CI\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}

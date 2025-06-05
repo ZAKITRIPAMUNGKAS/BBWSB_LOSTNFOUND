@@ -61,23 +61,27 @@
 </head>
 <body>
 
-  <div class="container">
-    <div class="back" style="color: #333; text-decoration: none;"><a href="javascript:window.history.back()" style="color: inherit; text-decoration: none;">&lt; Kembali</a></div>
-    <h2 style="color: #333; text-decoration: none;">Detail Laporan Kehilangan</h2>
-    <div class="detail-box">
-
-      <!-- Gambar Barang -->
-      <img src="/img/barang/dompet-hitam.jpg" alt="Gambar Barang Hilang" class="detail-image">
-
-      <!-- Detail Laporan -->
-      <p><strong>Nama Barang:</strong> Dompet Kulit Hitam</p>
-      <p><strong>Lokasi Kehilangan:</strong> Perpustakaan Kampus</p>
-      <p><strong>Tanggal:</strong> 22 Mei 2025</p>
-      <p><strong>Kontak:</strong> 08123456789</p>
-      <p><strong>Deskripsi:</strong> Dompet berisi KTP, KTM, dan ATM BCA. Terdapat label nama di dalamnya.</p>
-    </div>
+<div class="container">
+  <div class="back">
+    <a href="javascript:window.history.back()" style="color: inherit; text-decoration: none;">&lt; Kembali</a>
   </div>
+  <h2>Detail Laporan Kehilangan</h2>
+  <div class="detail-box">
 
-</body>
-</html>
+    <!-- Gambar Barang -->
+    <?php if (!empty($laporan['gambar_Barang'])): ?>
+      <img src="<?= base_url('www/public/uploads/' . $laporan['gambar_Barang']); ?>" alt="Gambar Barang Hilang" class="detail-image">
+    <?php else: ?>
+      <p><em>Tidak ada gambar barang.</em></p>
+    <?php endif; ?>
+
+    <!-- Detail -->
+    <p><strong>Nama Barang:</strong> <?= esc($laporan['nama_Barang']); ?></p>
+    <p><strong>Warna Barang:</strong> <?= esc($laporan['warna_Barang']); ?></p>
+    <p><strong>Waktu Kehilangan:</strong> <?= esc($laporan['waktu_Kehilangan']); ?></p>
+    <p><strong>Status:</strong> <?= esc($laporan['status_LK']); ?></p>
+  </div>
+</div>
+
 <?= $this->endSection(); ?>
+
